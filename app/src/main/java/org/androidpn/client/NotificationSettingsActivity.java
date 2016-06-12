@@ -27,7 +27,7 @@ import android.util.Log;
 /** 
  * Activity for displaying the notification setting view.
  *
- * @author Sehwan Noh (devnoh@gmail.com)
+ * @author Chaersi  ()
  */
 public class NotificationSettingsActivity extends PreferenceActivity {
 

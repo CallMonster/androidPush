@@ -22,7 +22,7 @@ import android.util.Log;
 /** 
  * A listener class for monitoring changes in phone connection states. 
  *
- * @author Sehwan Noh (devnoh@gmail.com)
+ * @author Chaersi  ()
  */
 public class PhoneStateChangeListener extends PhoneStateListener {
 

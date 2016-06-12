@@ -20,7 +20,7 @@ import android.util.Log;
 /** 
  * A thread class for recennecting the server.
  *重新连接的线程
- * @author Sehwan Noh (devnoh@gmail.com)
+ * @author Chaersi  ()
  */
 public class ReconnectionThread extends Thread {
 

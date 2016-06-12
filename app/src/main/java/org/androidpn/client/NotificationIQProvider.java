@@ -24,7 +24,7 @@ import android.util.Log;
 /** 
  * This class parses incoming IQ packets to NotificationIQ objects.
  *解析Push收到的IQ数据包为NotificationIQ对象
- * @author Sehwan Noh (devnoh@gmail.com)
+ * @author Chaersi  ()
  */
 public class NotificationIQProvider implements IQProvider {
 

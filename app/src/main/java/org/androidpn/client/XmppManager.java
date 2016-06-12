@@ -45,7 +45,7 @@ import android.util.Log;
 /**
  * This class is to manage the XMPP connection between client and server.
  * 
- * @author Sehwan Noh (devnoh@gmail.com)
+ * @author Chaersi  ()
  */
 public class XmppManager {
 

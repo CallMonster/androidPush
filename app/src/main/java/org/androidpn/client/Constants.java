@@ -18,7 +18,7 @@ package org.androidpn.client;
 /**
  * Static constants for this package.
  * 
- * @author Sehwan Noh (devnoh@gmail.com)
+ * @author Chaersi
  */
 public class Constants {
 

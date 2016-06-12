@@ -24,7 +24,7 @@ import android.util.Log;
 /** 
  * This class notifies the receiver of incoming notifcation packets asynchronously.  
  *
- * @author Sehwan Noh (devnoh@gmail.com)
+ * @author Chaersi  ()
  */
 public class NotificationPacketListener implements PacketListener {
 

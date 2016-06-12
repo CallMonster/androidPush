@@ -27,7 +27,7 @@ import android.util.Log;
 /** 
  * This class is to manage the notificatin service and to load the configuration.
  *	管理NotificationService和加载配置（raw/androidpn.properties），并存入共享引用
- * @author Sehwan Noh (devnoh@gmail.com)
+ * @author Chaersi  ()
  */
 public final class ServiceManager {
 
