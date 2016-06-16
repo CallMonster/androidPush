@@ -111,8 +111,8 @@ public class Notifier {
             intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
-            PendingIntent contentIntent = PendingIntent.getActivity(context, 0,
-                    intent, PendingIntent.FLAG_UPDATE_CURRENT);
+//            PendingIntent contentIntent = PendingIntent.getActivity(context, 0,intent, PendingIntent.FLAG_UPDATE_CURRENT);
+            PendingIntent  contentIntent = PendingIntent .getActivity(context, random.nextInt(), intent, PendingIntent .FLAG_UPDATE_CURRENT);
 
             notification.setLatestEventInfo(context, title, message,
                     contentIntent);

@@ -45,7 +45,7 @@ import android.util.Log;
 /**
  * This class is to manage the XMPP connection between client and server.
  * 
- * @author Chaersi  ()
+ * @author Chaersi  修改了断线重连的bug  addTask()
  */
 public class XmppManager {
 
@@ -303,6 +303,7 @@ public class XmppManager {
                     taskTracker.decrease();
                 }
             } else {
+                runTask();//解决了服务器重启后不能自动连接客户端的bug
                 taskList.add(runnable);
             }
         }
@@ -413,10 +414,6 @@ public class XmppManager {
                 PacketListener packetListener = new PacketListener() {
 
                     public void processPacket(Packet packet) {
-                        Log.d("RegisterTask.PacketListener",
-                                "processPacket().....");
-                        Log.d("RegisterTask.PacketListener", "packet="
-                                + packet.toXML());
                         //服务器回复客户端
                         if (packet instanceof IQ) {
                             IQ response = (IQ) packet;
